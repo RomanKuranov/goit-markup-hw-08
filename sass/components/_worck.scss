@@ -1,0 +1,38 @@
+.section--padding {
+  padding-top: 0;
+}
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
+.worck-list {
+  display: flex;
+}
+.worck-list__item {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.worck-list__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  width: 370px;
+  height: 70px;
+  color: $white-text-color;
+  background: $worck-text-bgr-color;
+
+  position: absolute;
+  bottom: 0;
+  padding: 27px 0;
+}
