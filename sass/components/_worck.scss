@@ -1,17 +1,14 @@
-.section--padding {
+.section--mobail {
+  display: none;
   padding-top: 0;
-}
-.section-title {
-  margin-bottom: 50px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: $secondary-text-color;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 .worck-list {
   display: flex;
+  justify-content: space-between;
 }
 .worck-list__item {
   position: relative;
@@ -20,8 +17,11 @@
   }
 }
 .worck-list__text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
@@ -32,7 +32,6 @@
   color: $white-text-color;
   background: $worck-text-bgr-color;
 
-  position: absolute;
-  bottom: 0;
+  margin: 0;
   padding: 27px 0;
 }
