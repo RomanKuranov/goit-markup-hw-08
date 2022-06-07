@@ -24,8 +24,8 @@
       <div class="container header-page__container">
         <!--Основная навигация-->
           <a href="WebStudio" class="logo logo--padding"
-            ><span class="logo__accent">Web</span>Studio</a
-          >
+            ><span class="logo__accent">Web</span>Studio
+            </a>
           <button
             type="button"
             class="menu-button"
@@ -46,6 +46,7 @@
           </svg>
         </button>
         <div class="mobail-menu" id="mobail-menu" data-menu>
+          <div class="mob-site-nav">
             <ul class="list site-nav">
               <li class="site-nav__item">
                 <a href="./index.html" class="link site-nav__link site-nav__link--current">Студия</a>
@@ -55,8 +56,10 @@
               </li>
               <li class="site-nav__item"><a href="Контакты" class="site-nav__link">Контакты</a></li>
             </ul>
+            </div>
           <!--Контакты-->
-          <ul class="list contact-list">
+          <div class="mob-contact">
+          <ul class="list mob-contact-info contact-list">
             <li class="contact-list__item contact-list__item--mail">
               <a href="mailto:info@devstudio.com" class="contact-list__link contact-list__link--mail">
                 <svg class="contact-list__icon" width="16" height="12">
@@ -74,12 +77,13 @@
               </a>
             </li>
           </ul>
-          <ul class="list social-nav">
+          <ul class="mob-contact-list list social-nav">
             <li class="social-nav__item"><a href="" class="social-nav__link">Instagram</a></li>
             <li class="social-nav__item"><a href="" class="social-nav__link">Twitter</a></li>
             <li class="social-nav__item"><a href="" class="social-nav__link">Facebook</a></li>
             <li class="social-nav__item"><a href="" class="social-nav__link">LinkedIn</a></li>
           </ul>
+          </div>
         </div>
       </div>
     </header>
